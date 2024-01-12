@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: dos
+name: davidOS
 
-description: dos = david's os
+description: my ready-to-go OS
 
 base-image: ghcr.io/ublue-os/silverblue-main
 
