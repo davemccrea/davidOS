@@ -15,10 +15,6 @@ enable-animations=true
 enable-hot-corners=true
 gtk-theme='Adwaita-dark'
 
-[org/gnome/desktop/input-sources]
-mru-sources=[('xkb', 'gb'), ('xkb', 'se')]
-sources=[('xkb', 'gb'), ('xkb', 'se')]
-
 [org/gnome/desktop/wm/keybindings]
 switch-applications = ['<Super>Tab']
 switch-applications-backward = ['<Shift><Super>Tab']
