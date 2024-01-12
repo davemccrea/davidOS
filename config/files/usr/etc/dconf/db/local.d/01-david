@@ -16,8 +16,8 @@ enable-hot-corners=true
 gtk-theme='Adwaita-dark'
 
 [org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'gb'), ('xkb', 'se')]
 sources=[('xkb', 'gb'), ('xkb', 'se')]
-xkb-options=['altwin:swap_alt_win']
 
 [org/gnome/desktop/wm/keybindings]
 switch-applications = ['<Super>Tab']
