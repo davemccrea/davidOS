@@ -25,6 +25,7 @@ modules:
       - tailscale
       - insync
       - podman-compose
+      - code
     remove:
       - toolbox
       - firefox
@@ -53,7 +54,6 @@ modules:
         - com.valvesoftware.Steam
         - org.videolan.VLC
         - io.bassi.Amberol
-        - com.visualstudio.code
         - io.podman_desktop.PodmanDesktop
 
   - type: bling

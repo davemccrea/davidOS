@@ -7,7 +7,7 @@ secondary-color='FFFFFF'
 
 [org/gnome/shell] 
 enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx']
-favorite-apps = ['org.gnome.Nautilus.desktop', 'com.visualstudio.code.desktop', 'io.bassi.Amberol.desktop', 'md.obsidian.Obsidian.desktop', 'com.brave.Browser.desktop']
+favorite-apps = ['org.gnome.Nautilus.desktop', 'code.desktop', 'io.bassi.Amberol.desktop', 'md.obsidian.Obsidian.desktop', 'com.brave.Browser.desktop']
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
