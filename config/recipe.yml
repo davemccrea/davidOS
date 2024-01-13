@@ -24,7 +24,6 @@ modules:
       - gnome-themes-extra
       - distrobox
       - tailscale
-      - insync
       - podman-compose
       - code
       - hdparm
@@ -77,5 +76,6 @@ modules:
 
   - type: script
     scripts:
+      - install-insync.sh
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
