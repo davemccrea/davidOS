@@ -77,6 +77,8 @@ highlight-background-color='rgb(64,61,82)'
 palette=['rgb(38,35,58)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)', 'rgb(110,106,134)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)']
 use-custom-command=true
 custom-command='distrobox enter dterm'
+use-transparent-background=true
+background-transparency-percent=4
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
