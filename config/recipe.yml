@@ -26,6 +26,7 @@ modules:
       - insync
       - podman-compose
       - code
+      - hdparm
     remove:
       - toolbox
       - firefox
