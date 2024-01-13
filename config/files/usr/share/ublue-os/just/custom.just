@@ -1,4 +1,4 @@
-import '100-bling.just'
+!include /usr/share/ublue-os/just/main.just
 
 # Assemble distrobox containers
 assemble:
