@@ -14,6 +14,7 @@ modules:
   - type: files
     files:
       - usr: /usr
+      - etc: /etc
 
   - type: rpm-ostree
     repos:
@@ -30,6 +31,10 @@ modules:
       - podman-compose
       - code
       - hdparm
+      - docker-ce
+      - docker-ce-cli
+      - docker-buildx-plugin
+      - docker-compose-plugin
     remove:
       - toolbox
       - firefox
@@ -79,6 +84,8 @@ modules:
     system:
       enabled:
         - tailscaled.service
+        - davidos-groups.service
+        - docker.socket
 
   - type: script
     scripts:
