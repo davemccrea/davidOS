@@ -19,6 +19,7 @@ modules:
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       - https://packages.microsoft.com/yumrepos/vscode/config.repo
+      - https://download.docker.com/linux/fedora/docker-ce.repo
 
     install:
       - gnome-shell-extension-appindicator
@@ -30,6 +31,10 @@ modules:
       - podman-compose
       - code
       - hdparm
+      - docker-ce
+      - docker-ce-cli
+      - docker-buildx-plugin
+      - docker-compose-plugin
     remove:
       - toolbox
       - firefox
@@ -79,6 +84,8 @@ modules:
     system:
       enabled:
         - tailscaled.service
+        - davidos-groups.service
+        - docker.socket
 
   - type: script
     scripts:
