@@ -50,7 +50,6 @@ modules:
         - org.gnome.Loupe
         - org.gnome.Weather
         - com.bitwarden.desktop
-        - com.brave.Browser
         - org.libreoffice.LibreOffice
         - com.borgbase.Vorta
         - io.beekeeperstudio.Studio
