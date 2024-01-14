@@ -2,4 +2,4 @@
 assemble:
     echo 'Assembling and replacing distroboxes ...'
     rm -rf ~/distrobox
-    distrobox assemble create --replace --file /etc/distrobox/distrobox.ini
+    distrobox assemble create --replace --file /usr/etc/distrobox/distrobox.ini
