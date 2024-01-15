@@ -14,6 +14,9 @@ dock-position='LEFT'
 hot-keys=false
 show-mounts=false
 apply-custom-theme=false
+transparency-mode='DYNAMIC'
+show-trash=false
+show-show-apps-button=false
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
