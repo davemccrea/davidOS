@@ -89,6 +89,7 @@ modules:
 
   - type: script
     scripts:
+      - install-prompt.sh
       - install-insync.sh
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
