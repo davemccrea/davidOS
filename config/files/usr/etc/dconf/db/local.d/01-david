@@ -76,7 +76,7 @@ profile-uuids=['d32ebeeec9b6ab45385f30bf65a5860b', '8c6b209de89d9953fb84de6b65a5
 [org/gnome/Prompt/Profiles/8c6b209de89d9953fb84de6b65a58dbc]
 bold-is-bright=true
 label='host'
-palette='Linux'
+palette='linux'
 
 [org/gnome/Prompt/Profiles/d32ebeeec9b6ab45385f30bf65a5860b]
 bold-is-bright=true
