@@ -1,6 +1,6 @@
-# Assemble distrobox containers
 update-dterm:
-    echo 'Assembling and replacing distroboxes ...'
-    # Clear dterm home folder and start with a clean slate
+    distrobox stop dterm
+    distrobox rm dterm
     rm -rf ~/distrobox/dterm
-    distrobox assemble create --replace --file /usr/etc/distrobox/distrobox.ini
+    podman pull ghcr.io/davemccrea/dterm
+    distrobox create --image ghcr.io/davemccrea/dterm:latest --name dterm --home ~/distrobox/dterm
