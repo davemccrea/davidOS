@@ -1,5 +1,5 @@
 # Assemble distrobox containers
-assemble:
+update-dterm:
     echo 'Assembling and replacing distroboxes ...'
     # Clear dterm home folder and start with a clean slate
     rm -rf ~/distrobox/dterm
