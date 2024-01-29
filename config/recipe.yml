@@ -64,11 +64,6 @@ modules:
         - io.bassi.Amberol
         - io.podman_desktop.PodmanDesktop
 
-  - type: bling
-    install:
-      - ublue-update
-      - dconf-update-service
-
   - type: fonts
     fonts:
       nerd-fonts:
