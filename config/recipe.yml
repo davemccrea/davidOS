@@ -64,6 +64,9 @@ modules:
         - org.videolan.VLC
         - io.bassi.Amberol
         - io.podman_desktop.PodmanDesktop
+        - sh.cider.Cider
+        - org.qbittorrent.qBittorrent
+        - org.zotero.Zotero
 
   - type: fonts
     fonts:
