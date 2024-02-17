@@ -18,7 +18,6 @@ modules:
   - type: rpm-ostree
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-      - https://packages.microsoft.com/yumrepos/vscode/config.repo
       - https://download.docker.com/linux/fedora/docker-ce.repo
 
     install:
@@ -29,7 +28,6 @@ modules:
       - distrobox
       - tailscale
       - podman-compose
-      - code
       - hdparm
       - docker-ce
       - docker-ce-cli
