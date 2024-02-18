@@ -49,38 +49,31 @@ allow-updates=false
 download-updates=false
 download-updates-notify=false
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-binding='<Super><Shift>Return'
-command='ptyxis --tab-with-profile=8c6b209de89d9953fb84de6b65a58dbc'
-name='host'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding='<Super>Return'
-command='ptyxis --tab-with-profile=d32ebeeec9b6ab45385f30bf65a5860b'
-name='dterm'
-
-[org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/' ]
-
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
 night-light-schedule-automatic=true
 night-light-temperature=uint32 4000
 
-[org/gnome/Ptyxis]
-use-system-font=false
-font-name='Source Code Pro 11'
-default-profile-uuid='8c6b209de89d9953fb84de6b65a58dbc'
-profile-uuids=['d32ebeeec9b6ab45385f30bf65a5860b', '8c6b209de89d9953fb84de6b65a58dbc']
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='gnome-terminal --profile dterm'
+name='dterm'
 
-[org/gnome/Ptyxis/Profiles/8c6b209de89d9953fb84de6b65a58dbc]
-bold-is-bright=true
-label='host'
-palette='linux'
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
 
-[org/gnome/Ptyxis/Profiles/d32ebeeec9b6ab45385f30bf65a5860b]
-bold-is-bright=true
-label='dterm'
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '56ad3c08-2616-4a4b-b91e-3c669f8c6b61']
+
+[org/gnome/terminal/legacy/profiles:/:56ad3c08-2616-4a4b-b91e-3c669f8c6b61]
+visible-name='dterm'
+title='dterm'
+title-mode='after'
 use-custom-command=true
 custom-command='distrobox enter dterm'
-palette='Rosé Pine Moon'
+use-system-font=false
+font='JetBrainsMono Nerd Font 11'
+audible-bell=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
