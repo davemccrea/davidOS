@@ -51,12 +51,12 @@ download-updates-notify=false
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super><Shift>Return'
-command='prompt --tab-with-profile=8c6b209de89d9953fb84de6b65a58dbc'
+command='ptyxis --tab-with-profile=8c6b209de89d9953fb84de6b65a58dbc'
 name='host'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Super>Return'
-command='prompt --tab-with-profile=d32ebeeec9b6ab45385f30bf65a5860b'
+command='ptyxis --tab-with-profile=d32ebeeec9b6ab45385f30bf65a5860b'
 name='dterm'
 
 [org/gnome/settings-daemon/plugins/media-keys]
@@ -67,18 +67,18 @@ night-light-enabled=true
 night-light-schedule-automatic=true
 night-light-temperature=uint32 4000
 
-[org/gnome/Prompt]
+[org/gnome/Ptyxis]
 use-system-font=false
 font-name='Source Code Pro 11'
 default-profile-uuid='8c6b209de89d9953fb84de6b65a58dbc'
 profile-uuids=['d32ebeeec9b6ab45385f30bf65a5860b', '8c6b209de89d9953fb84de6b65a58dbc']
 
-[org/gnome/Prompt/Profiles/8c6b209de89d9953fb84de6b65a58dbc]
+[org/gnome/Ptyxis/Profiles/8c6b209de89d9953fb84de6b65a58dbc]
 bold-is-bright=true
 label='host'
 palette='linux'
 
-[org/gnome/Prompt/Profiles/d32ebeeec9b6ab45385f30bf65a5860b]
+[org/gnome/Ptyxis/Profiles/d32ebeeec9b6ab45385f30bf65a5860b]
 bold-is-bright=true
 label='dterm'
 use-custom-command=true
