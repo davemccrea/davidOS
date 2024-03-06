@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: davidOS
+name: davidos
 
 description: my ready-to-go OS
 
