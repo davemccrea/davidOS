@@ -65,6 +65,7 @@ modules:
         - io.podman_desktop.PodmanDesktop
         - org.qbittorrent.qBittorrent
         - org.zotero.Zotero
+        - com.github.qarmin.czkawka
 
   - type: fonts
     fonts:
