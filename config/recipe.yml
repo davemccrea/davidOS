@@ -45,6 +45,7 @@ modules:
     notify: true
     system:
       install:
+        - org.gnome.TextEditor
         - org.gnome.Calculator
         - org.gnome.Calendar
         - org.gnome.clocks
