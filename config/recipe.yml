@@ -6,7 +6,7 @@ description: my ready-to-go OS
 base-image: ghcr.io/ublue-os/silverblue-main
 
 # latest is also supported if you want new updates ASAP
-image-version: 39
+image-version: latest
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -80,7 +80,6 @@ modules:
   - type: systemd
     system:
       enabled:
-        - dconf-update.service
         - tailscaled.service
         - smb.service
         - davidos-groups.service
@@ -91,3 +90,7 @@ modules:
       - install-insync.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
+
+  - type: gschema-overrides
+    include:
+      - zz1-myoverride.gschema.override # test & compile the override file included in config/gschema-overrides/zz1-myoverride.gschema.override
