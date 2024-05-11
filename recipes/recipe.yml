@@ -45,6 +45,7 @@ modules:
     notify: true
     system:
       install:
+        - com.brave.Browser
         - org.gnome.TextEditor
         - org.gnome.Calculator
         - org.gnome.Calendar
