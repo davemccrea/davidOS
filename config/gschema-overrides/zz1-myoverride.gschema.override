@@ -87,3 +87,12 @@ palette=['rgb(38,35,58)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,11
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'gb'), ('xkb', 'se')]
+show-all-sources=false
+sources=[('xkb', 'gb'), ('xkb', 'se')]
+xkb-options=['altwin:swap_alt_win']
+
+[org/gnome/mutter]
+experimental-features=['scale-monitor-framebuffer']
