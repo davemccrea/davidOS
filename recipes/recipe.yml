@@ -21,6 +21,7 @@ modules:
       - https://download.docker.com/linux/fedora/docker-ce.repo
 
     install:
+      - powertop
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
